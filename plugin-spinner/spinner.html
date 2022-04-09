@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plugin - Spinner</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    />
+    <link href="spinner.css" rel="stylesheet" />
+    <script src="spinner.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center mt-5">
+        <button
+          type="button"
+          class="btn btn-primary btn-sm me-1"
+          id="spinnerBtn1"
+        >
+          Spinner 1
+        </button>
+        <div id="spin1"></div>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm me-1"
+          id="spinnerBtn2"
+        >
+          Spinner 2
+        </button>
+        <div id="spin2"></div>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm me-1"
+          id="spinnerBtn3"
+        >
+          Spinner 3
+        </button>
+        <div id="spin3"></div>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm me-1"
+          id="spinnerBtn4"
+        >
+          Spinner 4
+        </button>
+        <div id="spin4"></div>
+        <button
+          type="button"
+          class="btn btn-primary btn-sm me-1"
+          id="spinnerBtn5"
+        >
+          Spinner 5
+        </button>
+        <div id="spin5"></div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("spinnerBtn1").spinner("spin1");
+      document.getElementById("spinnerBtn2").spinner("spin2");
+      document.getElementById("spinnerBtn3").spinner("spin3");
+      document.getElementById("spinnerBtn4").spinner("spin4");
+      document.getElementById("spinnerBtn5").spinner("spin5");
+    </script>
+  </body>
+</html>
